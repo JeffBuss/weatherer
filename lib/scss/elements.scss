@@ -1,0 +1,52 @@
+@import './variables.scss';
+
+body {
+  background-color: #eaeaea;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  font-family: $opensans;
+}
+
+.location-input {
+  text-align: center;
+  font-size: 2em;
+  border-radius: $radius;
+  height: 1em;
+}
+
+.submit-button {
+  border-radius: $radius;
+  margin-top: 1em;
+}
+
+.location {
+  font-size: 1.5em;
+  margin-bottom: .75em;
+}
+
+.logo {
+  font-family: $fjalla;
+  font-size: 3em;
+  margin: .25em;
+}
+
+.user-input {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin: 1em
+}
+
+.weather-card {
+  border: 4px #dadada solid;
+  border-radius: $radius;
+  background-color: #fafafa;
+  text-align: left;
+  margin: 6px;
+  padding: 1em;
+}
+
+.welcome {
+  margin-bottom: .5em;
+}

@@ -1,12 +1,12 @@
 import React from 'react';
-import TheApplication from './theapplication'
+import TheApplication from './theapplication';
 
 export default class Main extends React.Component {
 
 
-  render () {
+  render() {
     return (
       <TheApplication/>
-    )
+    );
   }
 }
